@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue Mastery</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1 :style="{color:'blue'}">Cursos Disponibles</h1>
+
+      <div class="cursos">
+        <lista
+          v-for="curso in cursos"
+          :key="curso.id"
+          :id="curso.id"
+          :nombre="curso.nombre"
+          :sigla="curso.sigla"
+          :categoria="curso.categoria"
+          :duracion="curso.duracion"
+          :descripcion="curso.descripcion"
+          :src="curso.src"
+          @ver-detalles="verDetalles"
+        >
+        </lista>
+      </div>
+
+      <detalles
+        v-if="cursoSeleccionado"
+        :categoria="cursoSeleccionado.categoria"
+        :duracion="cursoSeleccionado.duracion"
+        :descripcion="cursoSeleccionado.descripcion"
+        @cerrar-detalles="cerrarDetalles"
+      >
+      </detalles>
+    </div>
+    <script src="./components/main.js"></script>
+    <script src="./components/CourseList.js"></script>
+    <script src="./components/CourseDetail.js"></script>
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>

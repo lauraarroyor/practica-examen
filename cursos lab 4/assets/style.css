@@ -1,0 +1,32 @@
+.curso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: solid skyblue;
+    width: 600px;
+}
+
+h1{
+    text-align: center;
+}
+
+.cursos{
+    display: grid;
+grid-template-columns: 1fr 2fr;
+  gap: 20px
+}
+.detalles{
+  border-top: 1px solid #ff0000;
+  width: 200px;
+  height: 300px;
+}
+
+button{
+  background-color: rgb(63, 124, 104);
+  border: none;
+  color: white;
+}
+button:hover{
+  color: aquamarine;
+}
