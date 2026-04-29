@@ -1,0 +1,26 @@
+{
+  "name": "sonar-qa-demo",
+  "version": "1.0.0",
+  "description": "Proyecto demo para analisis de calidad con SonarCloud — HTML, CSS, JS basico con bugs intencionales para ISTQB QA",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "start": "npx live-server ."
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "src/js/**/*.js"
+    ],
+    "coverageReporters": ["text", "lcov", "html"],
+    "coverageDirectory": "coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "keywords": ["qa", "testing", "istqb", "sonarcloud", "demo"],
+  "author": "QA Demo — ISTQB",
+  "license": "MIT"
+}

@@ -1,0 +1,106 @@
+/* styles.css — contiene problemas detectables por SonarCloud */
+
+/* BUG-12: Selector universal sin restricción → impacto en rendimiento */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* BUG-13: Uso excesivo de !important → dificulta mantenimiento (S4648) */
+header {
+  background-color: #333 !important;
+  color: #ffffff !important;
+  padding: 15px !important;
+  text-align: center !important;
+}
+
+/* BUG-14: Regla duplicada — background-color declarado dos veces */
+main {
+  background-color: #fff;
+  padding: 20px;
+  background-color: #fafafa; /* duplicado → S1135 */
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* BUG-15: Color de texto con contraste insuficiente → accesibilidad S4649 */
+.muted-text {
+  color: #aaaaaa;        /* gris muy claro sobre fondo blanco → WCAG falla */
+  background-color: #f8f8f8;
+  font-size: 12px;
+}
+
+/* BUG-16: Selector apuntando a elemento que no existe en el HTML */
+#nonExistentPanel {
+  display: flex;
+  justify-content: center;
+}
+
+/* BUG-17: Propiedad vendor-prefix sin su versión estándar */
+.animated-box {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  /* falta: transition: all 0.3s ease; → S4649 */
+}
+
+/* BUG-18: Valor de z-index arbitrariamente alto → código mágico */
+.modal-overlay {
+  position: fixed;
+  z-index: 99999;      /* magic number → S109 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+/* BUG-19: Regla CSS vacía → código muerto */
+.empty-rule {
+}
+
+/* BUG-20: Uso de px fijo en font-size → mala práctica de accesibilidad */
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+}

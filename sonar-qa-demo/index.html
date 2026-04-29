@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!-- BUG-01: Falta atributo lang en <html> → accesibilidad / SonarCloud: S5148 -->
+<head>
+  <meta charset="UTF-8">
+  <!-- BUG-02: Falta <meta name="viewport"> → problema de accesibilidad móvil -->
+  <title>QA Demo App — Detección de Bugs</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+
+  <!-- BUG-03: Inline style directamente en el body → violación de separación de estilos -->
+  <header style="background-color: #333; color: white; padding: 10px;">
+    <h1>Sistema de Gestión de Usuarios</h1>
+    <!-- BUG-04: Imagen sin atributo alt → accesibilidad S1085 -->
+    <img src="logo.png" width="50" height="50">
+  </header>
+
+  <main>
+    <section id="login-section">
+      <h2>Iniciar Sesión</h2>
+
+      <!-- BUG-05: Formulario sin atributo action ni method definido -->
+      <form id="loginForm">
+        <!-- BUG-06: Input sin label asociado → accesibilidad S1104 -->
+        <input type="text" id="username" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+
+        <!-- BUG-07: onclick inline en HTML mezclando JS con HTML -->
+        <button type="submit" onclick="login()">Ingresar</button>
+      </form>
+    </section>
+
+    <section id="users-section" style="display:none;">
+      <h2>Lista de Usuarios</h2>
+      <!-- BUG-08: Tabla sin encabezados <th> → accesibilidad -->
+      <table id="usersTable" border="1">
+        <!-- BUG-09: Atributo "border" deprecated en HTML5 -->
+        <tbody id="tableBody"></tbody>
+      </table>
+
+      <div id="stats-panel">
+        <p id="totalMsg"></p>
+        <p id="errorMsg" style="color:red;"></p>
+      </div>
+    </section>
+
+    <section id="calculator-section">
+      <h2>Calculadora de Descuentos</h2>
+      <input type="number" id="price" placeholder="Precio">
+      <input type="number" id="discount" placeholder="Descuento %">
+      <!-- BUG-10: Botón sin type definido dentro de un form → puede causar submit accidental -->
+      <button onclick="calculateDiscount()">Calcular</button>
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- BUG-11: Tag <center> deprecated en HTML5 -->
+    <center>
+      <p>&copy; 2024 QA Demo | Todos los derechos reservados</p>
+    </center>
+  </footer>
+
+  <script src="src/js/utils.js"></script>
+  <script src="src/js/users.js"></script>
+  <script src="src/js/app.js"></script>
+</body>
+</html>
