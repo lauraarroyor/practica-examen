@@ -1,0 +1,30 @@
+/**
+* Main
+* Description: 
+* Usage:
+* Dependencies: _variables.css
+*/
+
+@layer main{
+    html{
+        font-family: var(--ff-main);
+        line-height: var(--lh-body);
+    }
+
+    a{
+        color: var(--clr-white);
+    }
+
+    /* seudo classes*/
+    a:focus-visible{
+        color: var(--clr-primary);
+    }
+
+    img{
+      &[data-size="small"]{ width: 25%; }
+      &[data-size="medium"]{ width: 50%; }
+      &[data-size="large"]{ width: 75%; }
+      &[data-size="xlarge"]{ width: 85%; }
+      &[data-size="max"]{ width: 95%; }
+    }
+}

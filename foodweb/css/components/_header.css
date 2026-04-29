@@ -1,0 +1,44 @@
+@layer header{
+
+    .hero-title{
+        display: grid;
+        max-width: 70ch;
+    }
+
+    .hero-links{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+        a{ position: relative; }
+
+        a::after{
+            content:'';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: var(--clr-white);
+            transition: width 0.3s ease;
+        }
+
+        a:hover::after{ width: 100%;}
+    }
+
+    .decorated-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .decorated-text::before,
+    .decorated-text::after{
+        content:'';
+        width: var(--decorated-line-width);
+        height: 2px;
+        background-color: var(--clr-white);
+    }
+
+}

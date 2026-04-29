@@ -1,0 +1,44 @@
+@layer navigation{
+
+    .navigation-link{
+        display: flex;
+        align-items: center;
+        margin-inline: 2rem;
+    }
+
+    .primary-navigation{
+
+        ul{
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+
+            a{
+                position: relative;
+                transition: color 0.3s ease;
+            }
+
+            a::after{
+                content:'';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: -4px;
+                left: 0;
+                background-color: var(--clr-primary);
+                transition: width 0.3s ease;
+            }
+
+            a:hover{
+                color: var(--clr-primary);
+            }
+
+            a:hover::after{
+                width: 100%;
+            }
+        }
+
+    }
+
+
+  }

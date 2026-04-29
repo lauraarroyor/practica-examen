@@ -1,0 +1,181 @@
+---------------------
+
+[white,  semibold, 16px]
+
+HOME
+PAGES
+SHOP
+BLOG
+CONTACT
+
+BOOK A TABLE
+
+---------------------
+ 
+ THE GREAT [white, semibold, 48px]
+ FLAVORED FOOD [white, bold, 80px]
+ PART OF US [white, semibold, 48px]
+
+ BOOK A TABLE [white, semibold, 16px]
+ VIEW MENU [white, semibold, 16px]
+
+---------------------
+
+MAKE RESERVATION [white, semibold, 14px]
+WELCOME TO OUR LUXURY RESTAURANT [secondary, bold, 40px]
+
+[paragraph, regular, 18px]
+The scallops were perfectly cooked, tender, and flavorful, paired beautifully with a creamy risotto and seasonal vegetables. The presentation was artful, showcasing the chef's attention to detail.
+
+HOTLINE 24/7 [paragraph, medium, 14px]
++256 3254-2568 [secondary, bold, 20px]
+
+---------------------
+
+OUR SERVICES [white, semibold, 14px]
+OUR RESTAURANT SERVICE [secondary, bold, 40px]
+
+WEDDING SERVICE [secondary, bold, 24px]
+[paragraph, regular, 16px]
+The chocolate fondant which did not disappoint It was rich and indulgent, with a gooey center that was pure bliss.
+
+READ MORE [primary, semibold, 16px]
+
+BUFFET SERVICE [secondary, bold, 24px]
+[paragraph, regular, 16px]
+Assertively myocardinate robust e-tailers for extensible human capital. dpropriately benchmark networks.
+
+READ MORE [primary, semibold, 16px]
+
+PARTY SERVICE [secondary, bold, 24px]
+[paragraph, regular, 16px]
+Assertively myocardinate robust e-tailers for extensible human capital. dpropriately benchmark networks.
+
+READ MORE [primary, semibold, 16px]
+
+---------------------
+
+FOOD MENU [white, semibold, 14px]
+OUR DELICIOUS FOODS [secondary, bold, 40px]
+
+ALL FOOD [primary, semibold, 16px]
+BREAKFAST [secondary, semibold, 16px]
+LUNCH [secondary, semibold, 16px]
+DINNER [secondary, semibold, 16px]
+
+Braised Short Ribs [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+Roasted Vegetable Platter [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+Classic Caesar Salad [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+Szechuan Beef Stir-Fry [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+Vegan Buddha Bowl [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+Vegan Buddha Bowl [secondary, semibold, 20px]
+Non nisi est sit amet facilisis magna [paragraph, regular, 14px]
+$15.00 [primary, semibold, 16px]
+
+---------------------
+
+15 [white, bold, 72px] NEW COOL PROJECTS [white, semibold, 16px]
+15 [white, bold, 72px] TOTAL AWARDS WIN [white, semibold, 16px]
+20 [white, bold, 72px] UNIQUE FOOD SPECIALITIES [white, semibold, 16px]
+69 [white, bold, 72px] HARD TEAM MEMBERS [white, semibold, 16px]
+
+VIEW OUR PROJECTS [white, semibold, 14px]
+VIEW OUR FOOD GALLERY [white, bold, 40px]
+
+---------------------
+
+CLIENT TESTIMONIAL [white, semibold, 14px]
+
+OUR CUSTOMER FEEDBACKS [secondary, bold, 40px]
+
+[paragraph, regular, 20px]
+The only minor downside was the noise level, which made conversation a bit challenging at times. However, this did not significantly detract from the overall experience. The Culinary Corner excels in delivering delicious food and exceptional service.
+
+Amanda Martin [secondary, semibold, 22px]
+Food Reviewer [paragraph, regular, 16px]
+
+---------------------
+
+BOOK A TABLE [white, semibold, 14px]
+MAKE RESERVATION [secondary, bold, 40px]
+
+BOOK NOW [white, semibold, 16px]
+
+MAKE RESERVATION [white, semibold, 14px]
+MEET THE EXPERT CHEF [secondary, bold, 40px]
+
+KUMAN TUNMAN [white, bold, 24px]
+WAITER [white, medium, 12px]
+
+---------------------
+
+CRISPY, EVERY BITE TASTE [white, semibold, 14px]
+LOOKING FOR POPULAR FAST FOOD [white, bold, 60px]
+
+READ MORE [white, bold, 16px]
+
+---------------------
+
+CRISPY, EVERY BITE TASTE [white, semibold, 14px]
+
+LATEST NEWS INSIGHTS [secondary, bold, 48px]
+VIEW ALL POSTS [white, semibold, 16px]
+
+FOOD MENU [paragraph, semibold, 12px]
+
+How to Ensure Direct for the Hassle-Free Visa Process [secondary, bold, 20px]
+02 Comments [paragraph, regular, 16px]
+
+---------------------
+ 
+ Are You Want To Make A Reservation [paragraph, regular, 18px], Get Your Table [white, regular, 18px]
+
+ Have Question? [paragraph, regular, 14px]
+ FREE [paragraph, medium, 18px] +92 (8800)-9850 [white, medium, 18px]
+
+ ---------------------
+
+ GET IN TOUCH [white, bold, 20px]
+ [white, regular, 16px]
+ Silk St, Barbican, London E2Y, UK
+ +39-055-123456
+ booking@webexample.com
+
+ FOOD MENU [white, bold, 20px]
+ [white, regular, 16px]
+ White Castle
+ Beef Sandwich
+ Cherry Limeade
+ Wendy's Frosty
+ Pumpkin Spice
+
+ WORKING HOURS [white, bold, 20px]
+ [white, regular, 16px] 
+ Monday - Friday 09:00 - 22:00
+ Saturday 11:00 - 00:00
+ Sunday 11:00 - 23:00
+
+ * Happy hour 17:00 - 21:00
+
+ INSTAGRAM [white, bold, 20px]
+
+ ---------------------
+
+© Copyright Delish. All Rights Reserved. [white, regular, 16px]
+Terms of use [white, regular, 16px]
+Privacy Policy [white, regular, 16px]
